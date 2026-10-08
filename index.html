@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="日本銀杏旅程規劃：景點地圖、歷年見頃時間、城市黃葉預報與散步路線。清楚區分實測與推估。">
+  <title>銀杏日和｜日本銀杏見頃動態地圖</title>
+  <link rel="icon" href="assets/leaf.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="vendor/MarkerCluster.css"><link rel="stylesheet" href="vendor/MarkerCluster.Default.css"><link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/leaflet.js"></script><script defer src="vendor/leaflet.markercluster.js"></script><script defer src="data/site-data.js"></script><script defer src="app.js"></script><script defer src="tour.js"></script>
+</head>
+<body>
+<a class="skip" href="#explore">跳至地圖操作</a>
+<header class="header"><a class="brand" href="#"><img src="assets/leaf.svg" alt="" width="35" height="40">銀杏日和</a><nav aria-label="主要導覽"><a href="#explore">賞杏地圖</a><a href="#timeline">見頃時間</a><a href="#routes">散步路線</a><a href="#sources">資料來源</a></nav><div class="header-actions"><button id="tour-open" class="quiet" aria-haspopup="dialog">操作導覽</button><button id="motion" class="quiet" aria-pressed="false">Ⅱ 暫停動畫</button></div></header>
+<main>
+<section class="hero wrap" aria-labelledby="hero-title">
+ <div><h1 id="hero-title">日本銀杏見頃地圖</h1><p class="hero-line">跟著金黃，慢慢走進日本的秋天。</p><p class="muted">從北海道到九州，找一條屬於你的秋日散步路。</p></div>
+ <div class="hero-date"><time id="hero-date" datetime="2026-10-08">2026.10.08</time><p id="hero-basis">歷年平均參考 · 實測待確認</p><div class="stats"><span><strong id="peak-count">0</strong> 推估見頃</span><span><strong id="spot-count">34</strong> 景點／子地點</span><span><strong>0</strong> 當季實測</span></div><p id="region-tip">接下來關注：北海道</p></div>
+ <img class="hero-branch botanical" src="assets/ginkgo-branch.png" alt="" width="430" height="430"><div class="falling" aria-hidden="true"><img src="assets/leaf.svg" alt=""><img src="assets/leaf.svg" alt=""><img src="assets/leaf.svg" alt=""></div>
+</section>
+<section id="explore" class="wrap explorer" aria-label="賞杏地圖">
+ <aside class="filters"><div id="filter-controls"><h2>找一片金黃</h2><label for="search">搜尋景點</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="景點、中日文、城市" autocomplete="off"></div>
+ <div class="filter-grid"><label>地區<select id="region"><option value="">全日本</option><option>北海道</option><option>東京</option><option>中部</option><option>關西</option><option>九州</option></select></label><label>葉況（推估）<select id="status"><option value="">全部葉況</option><option value="0">未轉黃</option><option value="1">轉黃中</option><option value="2">見頃</option><option value="3">落葉中</option><option value="4">已落葉</option></select></label></div>
+ <label>推薦程度<select id="rating"><option value="0">所有景點</option><option value="5">精選 ★★★★★</option><option value="4">★★★★ 以上</option></select></label>
+ <div class="filter-actions"><label class="check"><input type="checkbox" id="peak-only">只看見頃（推估）</label><button class="text-button" id="clear">清除篩選</button></div></div>
+ <div class="results-heading"><h3>景點一覽</h3><span id="result-count" role="status" aria-live="polite"></span></div><div id="results" class="results"></div>
+ </aside>
+ <div class="map-panel"><div class="date-controls"><div class="date-top"><label for="date">出發日期 <output id="date-label">10 月 8 日</output></label><div class="play-controls"><button id="play" class="round" aria-label="播放日期" aria-pressed="false">▶</button><label class="speed-label">速度<select id="speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><input type="date" id="date-picker" min="2026-10-01" max="2026-12-31" value="2026-10-08" aria-label="選擇出發日期"></div></div><input id="date" type="range" min="0" max="91" value="7" aria-label="出發日期滑桿"><div class="months"><span>10月</span><span>11月</span><span>12月</span></div>
+ <div class="basis-row"><label>規劃依據<select id="basis"><option value="historical">歷年平均／例年參考</option><option value="forecast">2026 城市預報參考</option></select></label><button id="today" class="text-button">回到今日</button><button id="reset-map" class="quiet small">⌖ 日本全景</button></div></div>
+ <div class="map-frame"><div id="map" aria-label="日本銀杏互動地圖"></div><p class="map-hint"><img src="assets/leaf.svg" alt="" width="19" height="22"><span>點一片銀杏，探索秋日景點<small>數字圓圈可點開放大</small></span></p><p id="map-warning" class="map-warning" hidden>底圖連線失敗：請確認網路後重試；景點資訊與篩選仍可操作。<button id="retry-map">重試底圖</button></p></div>
+ <div id="legend" class="legend" aria-label="葉況圖例"></div><p class="map-note" id="map-note">色彩表示歷年推估，不代表當日實測。資料查核：2026-10-08。</p>
+ </div>
+</section>
+<section id="recommendations" class="wrap section recommendations"><div class="section-intro"><h2>今日推薦</h2><p id="recommendation-note">依所選日期，挑一段秋日散步。</p></div><div id="recommendation-cards" class="recommendation-cards"></div></section>
+<section id="timeline" class="timeline-section"><div class="wrap section split"><div class="section-intro"><h2>見頃時間</h2><p>轉黃 → 見頃 → 落葉<br>拖動出發日期，看看秋色走到了哪裡。</p><p class="muted">時間帶為本站規劃推估。城市標本木與園區銀杏可能有差異。</p><div class="timeline-key"><span>● 轉黃</span><span>● 見頃</span><span>● 落葉</span></div></div><div class="timeline-content"><div class="timeline-months"><span>10月</span><span>11月</span><span>12月</span></div><div id="timeline-rows"></div><p id="timeline-empty" hidden>目前沒有符合篩選的景點。請清除篩選或切換日期。</p><p class="timeline-cursor-note"><span class="timeline-cursor-key" aria-hidden="true"></span><span><strong>黑色直線＝目前選擇的出發日期。</strong>調整上方日期時，直線會同步移動，方便對照各景點的轉黃、見頃與落葉時段。</span></p></div></div></section>
+<section id="routes" class="wrap section split routes"><div class="section-intro"><h2>散步路線</h2><p>從同一座城市出發，<br>把金黃串成一段旅程。</p><label>路線地區<select id="route-region"><option value="auto">跟隨推薦</option><option>東京</option><option>北海道</option><option>中部</option><option>關西</option><option>九州</option></select></label><div class="segmented" aria-label="行程長度"><button id="half" class="selected" aria-pressed="true">半日</button><button id="full" aria-pressed="false">一日</button></div><button id="route-map" class="primary">在地圖看路線 ↗</button></div><div><div class="route-heading"><h3 id="route-title"></h3><span id="route-total"></span></div><p id="route-note" class="muted"></p><ol id="itinerary" class="itinerary"></ol><a id="route-google" class="quiet link-button" target="_blank" rel="noopener noreferrer">在 Google Maps 查詢實際步行路線 ↗</a><p class="route-disclaimer">本站移動時間是估算，非即時導航；停留時間為行程建議。請確認交通、票券、開放與施工公告。</p></div></section>
+<section id="knowledge" class="knowledge"><div class="wrap section knowledge-grid"><div class="knowledge-art"><img class="botanical" src="assets/ginkgo-branch.png" alt="綠色與金黃色扇形銀杏葉插畫" width="500" height="500"><span>Ginkgo biloba</span></div><div><h2>認識銀杏</h2><div class="knowledge-row"><span>01</span><div><h3>扇形的秋天</h3><p>扇形葉片與放射狀葉脈，是辨識銀杏的線索。道路、公園、寺院與校園，都可能遇見它。</p></div></div><div class="knowledge-row"><span>02</span><div><h3>為什麼變黃？</h3><p>日照縮短、氣溫下降後，葉綠素逐漸分解，原本被綠色掩蓋的黃色色素便顯現出來。</p></div></div><div class="knowledge-row"><span>03</span><div><h3>黃金隧道與落葉地毯</h3><p>抬頭看並木連成的金黃拱廊，也低頭看看落葉。風與雨會改變留葉時間，賞景請走在人行道上。</p></div></div><a class="text-link" href="https://www.si.edu/stories/why-do-leaves-change-color-fall" target="_blank" rel="noopener noreferrer">葉色知識來源：Smithsonian ↗</a></div></div></section>
+<section id="sources" class="wrap section sources"><div class="source-header"><div><h2>資料來源與查證</h2><p>老師來源表 <strong>41 筆</strong> · 地圖 <strong id="source-spot-count">34</strong> 個景點／子地點</p><p class="muted">原始列號、source_id、group_id 與景點對應完整保留。查核日不當作葉況觀測日。</p></div><div class="evidence-types"><div><strong>實測</strong><span>須有物種與觀測日期<br>本次無2026景點實測</span></div><div><strong>預報</strong><span>2026-10-01城市預報<br>景點時間帶為本站推估</span></div><div><strong>歷年平均</strong><span>城市平年值／例年時期<br>適合安排旅程</span></div></div></div>
+ <details class="method"><summary>如何推估葉況、推薦與路線？</summary><p id="method"></p><p>狀態未知的當季景點，仍保留「實測待確認」。圖例中的橘色是落葉階段的介面顏色，並非宣稱銀杏轉為橘紅色。推薦星等為本站編輯評分。</p><p>城市氣溫採JMA 1991–2020月平年日最低／最高平均，隨所選月份變化；不是當地當日預報。座標為人工約略定位，請用實際路線確認入口。</p></details>
+ <div class="source-tools"><label>搜尋來源<input id="source-search" type="search" placeholder="來源ID、名稱、group_id"></label><a id="download-teacher" class="primary link-button" href="data/teacher-sources.json" download>下載 原始來源 JSON ↓</a><a id="download-spots" class="quiet link-button" href="data/spots.json" download>下載 景點 JSON ↓</a><a id="download-mapping" class="quiet link-button" href="data/source-mapping.json" download>下載 對應表 JSON ↓</a></div><div id="source-list" class="source-list"></div>
+ <div class="additional-sources"><h3>全日本補充來源</h3><div id="additional-links"></div></div><p class="source-footer">資料快照：2026-10-08。純前端網站不會自動抓取景點葉況，請透過原始來源確認最新公告。地圖：Leaflet + OpenStreetMap；叢集：Leaflet.markercluster。</p>
+</section>
+</main><footer><a class="brand" href="#">銀杏日和</a><p>讓秋天慢一點，讓資料清楚一點。</p><a href="#sources">查核日期 2026.10.08 ↗</a></footer><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="tour-dialog" class="tour-dialog tour-welcome" aria-labelledby="tour-title" aria-describedby="tour-description">
+ <div id="tour-spotlight" class="tour-spotlight" aria-hidden="true" hidden></div>
+ <section id="tour-card" class="tour-card">
+  <button id="tour-close" class="tour-close" aria-label="關閉導覽">×</button>
+  <div id="tour-welcome-art" class="tour-welcome-art" aria-hidden="true"><img src="assets/leaf.svg" alt="" width="44" height="50"></div>
+  <div aria-live="polite" aria-atomic="true"><p id="tour-eyebrow" class="tour-eyebrow">歡迎來到銀杏日和</p>
+  <h2 id="tour-title">第一次來到這裡？</h2>
+  <p id="tour-description">需要一段簡短的操作導覽嗎？用 1 分鐘，帶你認識地圖、日期與篩選，找到想去的銀杏景點。</p></div>
+  <div id="tour-progress" class="tour-progress" aria-label="導覽進度" hidden></div>
+  <div class="tour-actions"><button id="tour-back" class="quiet" hidden>上一步</button><button id="tour-next" class="primary">開始導覽 →</button><button id="tour-skip" class="text-button">先自行探索</button></div>
+  <p id="tour-footnote" class="tour-footnote">之後也能從頁首「操作導覽」重新查看。</p>
+ </section>
+</dialog>
+</body></html>

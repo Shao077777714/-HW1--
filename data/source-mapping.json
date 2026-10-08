@@ -1,0 +1,382 @@
+[
+  {
+    "source_id": "TKG-001",
+    "group_id": "TOKYO_PARK",
+    "row_number": 2,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "2026年度沿用日期及網址尚未確認。37處不是37處銀杏。"
+  },
+  {
+    "source_id": "TKG-002",
+    "group_id": "TOKYO_PARK",
+    "row_number": 3,
+    "spot_ids": [
+      "ueno"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "可列為銀杏專項季節觀測候選。"
+  },
+  {
+    "source_id": "TKG-003",
+    "group_id": "TOKYO_PARK",
+    "row_number": 4,
+    "spot_ids": [
+      "kiba"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "保留園區原文所指子地點。"
+  },
+  {
+    "source_id": "TKG-004",
+    "group_id": "TOKYO_PARK",
+    "row_number": 5,
+    "spot_ids": [
+      "koganei"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "園區跨行政區；不以服務中心地址代表全部觀測點。"
+  },
+  {
+    "source_id": "TKG-005",
+    "group_id": "TOKYO_PARK",
+    "row_number": 6,
+    "spot_ids": [
+      "shiba"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "銀杏與もみじ谷分開。正確網址使用siba，不是shiba。"
+  },
+  {
+    "source_id": "TKG-006",
+    "group_id": "TOKYO_PARK",
+    "row_number": 7,
+    "spot_ids": [
+      "johoku"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "必須按物種取值，不把櫸樹葉況套用銀杏。"
+  },
+  {
+    "source_id": "TKG-007",
+    "group_id": "TOKYO_PARK",
+    "row_number": 8,
+    "spot_ids": [
+      "zenpukuji"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "2025表與和田堀公園合併一列，不能假設各有獨立觀測。"
+  },
+  {
+    "source_id": "TKG-008",
+    "group_id": "TOKYO_PARK",
+    "row_number": 9,
+    "spot_ids": [
+      "wadabori"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "2025表與善福寺川緑地合併一列，保留共同來源關係。"
+  },
+  {
+    "source_id": "TKG-009",
+    "group_id": "TOKYO_PARK",
+    "row_number": 10,
+    "spot_ids": [
+      "toyama"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "須擷取銀杏段落／欄位，不直接使用全園紅葉狀態。"
+  },
+  {
+    "source_id": "TKG-010",
+    "group_id": "TOKYO_PARK",
+    "row_number": 11,
+    "spot_ids": [
+      "hikarigaoka",
+      "hikari-path"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "銀杏並木與ふれあいの径宜設為不同子地點。"
+  },
+  {
+    "source_id": "TKG-011",
+    "group_id": "TOKYO_PARK",
+    "row_number": 12,
+    "spot_ids": [
+      "hibiya"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "葉況與施工、通行公告分開管理。"
+  },
+  {
+    "source_id": "TKG-012",
+    "group_id": "TOKYO_PARK",
+    "row_number": 13,
+    "spot_ids": [
+      "yoyogi"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "黃葉公告須限定原文明示區域，不擴張為全園。"
+  },
+  {
+    "source_id": "TKG-013",
+    "group_id": "TOKYO_PARK",
+    "row_number": 14,
+    "spot_ids": [
+      "iwasaki"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "活動或集章日期不是見頃日；注意官網改版後網址。"
+  },
+  {
+    "source_id": "TKG-014",
+    "group_id": "SHOWA",
+    "row_number": 15,
+    "spot_ids": [
+      "showa-canal",
+      "showa-katarai"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "カナール、かたらいのイチョウ並木分開；page/3分頁位置會隨新增文章變動，不可當永久存檔ID。"
+  },
+  {
+    "source_id": "TKG-015",
+    "group_id": "FNG_SHINJUKU",
+    "row_number": 16,
+    "spot_ids": [
+      "shinjuku"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "舊文只當歷史樣本。環境省管理資訊與協會自然情報各有用途；不可混入同期其他樹種狀態。"
+  },
+  {
+    "source_id": "TKG-016",
+    "group_id": "HACHIOJI",
+    "row_number": 17,
+    "spot_ids": [
+      "hachioji-library",
+      "hachioji-tama"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "已確認2026季內內容，但不能只看照片日期就自動判定見頃。祭典日期與葉況分離。"
+  },
+  {
+    "source_id": "TKG-017",
+    "group_id": "KUNAICHO",
+    "row_number": 18,
+    "spot_ids": [
+      "east-garden"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "東御苑不是皇居外苑或北之丸公園。全園葉落描述不可自動套用銀杏。"
+  },
+  {
+    "source_id": "TKG-018",
+    "group_id": "UTOKYO_BOT",
+    "row_number": 19,
+    "spot_ids": [
+      "koishikawa"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "見到黃葉不等於已到見頃。小石川植物園與小石川後樂園是不同地點。"
+  },
+  {
+    "source_id": "TKG-019",
+    "group_id": "AKIRUNO",
+    "row_number": 20,
+    "spot_ids": [
+      "kotokuji"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "石舟橋段落是楓樹，不能套用到廣德寺銀杏。發文日與拍摄日分開。"
+  },
+  {
+    "source_id": "TKG-020",
+    "group_id": "JMA",
+    "row_number": 21,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "觀測站日期不能充當每處公園最佳觀賞日；未報告不等於青葉。"
+  },
+  {
+    "source_id": "TKG-021",
+    "group_id": "JMA",
+    "row_number": 22,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "不是全東京銀杏落葉完成日；保留站點和觀測現象定義。"
+  },
+  {
+    "source_id": "TKG-022",
+    "group_id": "JMA",
+    "row_number": 23,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "已驗證下載入口；本次未成功取得CSV檔位元組，也未驗證CSV欄位。不可宣稱API已測通。"
+  },
+  {
+    "source_id": "TKG-023",
+    "group_id": "MEIJI_GAIEN",
+    "row_number": 24,
+    "spot_ids": [
+      "gaien"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "不是明治神宮內苑。頁內老樹齡／株數含歷史基準，勿當2026現況。"
+  },
+  {
+    "source_id": "TKG-024",
+    "group_id": "OGIKUBO_GARDENS",
+    "row_number": 25,
+    "spot_ids": [
+      "ootaguro"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "不得沿用已於2024年3月結束管理的箱根植木舊頁作現任營運來源。"
+  },
+  {
+    "source_id": "TKG-025",
+    "group_id": "OOKUNITAMA",
+    "row_number": 26,
+    "spot_ids": [
+      "ookunitama"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "不要把附近馬場大門的櫸樹並木視為銀杏。"
+  },
+  {
+    "source_id": "TKG-026",
+    "group_id": "YASUKUNI",
+    "row_number": 27,
+    "spot_ids": [
+      "yasukuni"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "宣傳影片上線日不等於拍攝日。不可將未核視角的LIVE影片宣稱銀杏即時鏡頭。"
+  },
+  {
+    "source_id": "TKG-027",
+    "group_id": "GOTOKYO",
+    "row_number": 28,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "網址含forecast不等於有當日銀杏觀測；文章更新日不能代表照片日期。"
+  },
+  {
+    "source_id": "TKG-028",
+    "group_id": "CHIYODA_TOURISM",
+    "row_number": 29,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "尚未證實它對行幸通り等逐點提供定期銀杏觀測。"
+  },
+  {
+    "source_id": "TKG-029",
+    "group_id": "SHINJUKU_TOURISM",
+    "row_number": 30,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "不能取代新宿御苑管理相關單位的實際植物報告。"
+  },
+  {
+    "source_id": "TKG-030",
+    "group_id": "FNG_KOUKYO",
+    "row_number": 31,
+    "spot_ids": [],
+    "mapping_role": "補充索引／候選待證",
+    "note": "與宮內廳東御苑不同來源、不同地理範圍。"
+  },
+  {
+    "source_id": "TKG-031",
+    "group_id": "TOKYO_PARK",
+    "row_number": 32,
+    "spot_ids": [],
+    "mapping_role": "補充索引／候選待證",
+    "note": "不可把中央名單的楓樹狀態當作銀杏。"
+  },
+  {
+    "source_id": "TKG-032",
+    "group_id": "FUCHU_MUSEUM",
+    "row_number": 33,
+    "spot_ids": [],
+    "mapping_role": "補充索引／候選待證",
+    "note": "不要把彼岸花／萩等花況轉成銀杏；照片需獨立核日期。"
+  },
+  {
+    "source_id": "TKG-033",
+    "group_id": "TENKI",
+    "row_number": 34,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "多樹種混合；示意照片不等於當日照片。38個東京都紅葉點不等於38個銀杏點。"
+  },
+  {
+    "source_id": "TKG-034",
+    "group_id": "WEATHERNEWS",
+    "row_number": 35,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "勿宣稱其所有預報／回報均為官方實測。動態渲染內容需另做實測。"
+  },
+  {
+    "source_id": "TKG-035",
+    "group_id": "WALKER",
+    "row_number": 36,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "56項不是56處銀杏確證；2026葉況旁可並列2025活动。圖片二次使用受限。"
+  },
+  {
+    "source_id": "TKG-036",
+    "group_id": "JORUDAN",
+    "row_number": 37,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "歷年通常見頃不等於今年現況；不要假設所有點均有當日觀測。"
+  },
+  {
+    "source_id": "TKG-037",
+    "group_id": "N_KISHOU",
+    "row_number": 38,
+    "spot_ids": [],
+    "mapping_role": "整合／歷史／預報參考",
+    "note": "必須標forecast，保留發布日、預測對象和尺度；不得覆寫公園實際觀測。"
+  },
+  {
+    "source_id": "TKG-038",
+    "group_id": "TOKYO_PARK",
+    "row_number": 39,
+    "spot_ids": [],
+    "mapping_role": "失效／舊管理排除",
+    "note": "此列保留作失效紀錄，不計入可立即使用的現況來源。"
+  },
+  {
+    "source_id": "TKG-039",
+    "group_id": "HAKONE_OLD",
+    "row_number": 40,
+    "spot_ids": [],
+    "mapping_role": "失效／舊管理排除",
+    "note": "只保留遷移／排除理由；現行入口由杉並區官方指向荻窪三庭園。"
+  },
+  {
+    "source_id": "TKG-040",
+    "group_id": "UTOKYO_CAMPUS",
+    "row_number": 41,
+    "spot_ids": [
+      "utokyo-hongo",
+      "utokyo-komaba"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "本鄉、駒場、小石川植物園是不同地點。此頁未證實各校區的當季銀杏觀測。"
+  },
+  {
+    "source_id": "TKG-041",
+    "group_id": "KUNITACHI",
+    "row_number": 42,
+    "spot_ids": [
+      "kunitachi"
+    ],
+    "mapping_role": "景點直接來源",
+    "note": "區域旅遊更新不等於大學通り銀杏現況；可與Jorudan地點目錄交叉尋源。"
+  }
+]
