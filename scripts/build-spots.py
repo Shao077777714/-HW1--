@@ -4,6 +4,7 @@ ROOT=Path(__file__).resolve().parents[1]
 teacher=json.loads((ROOT/'data/teacher-sources.json').read_text(encoding='utf-8'))
 cities=json.loads((ROOT/'data/cities.json').read_text(encoding='utf-8'))
 rows={r['source_id']:r for r in teacher['rows']}
+photos=json.loads((ROOT/'data/spot-photos.json').read_text(encoding='utf-8'))
 spots=[]
 def add(id,zh,ja,area,lat,lon,source,feature,access,stars=4,period=None,period_url=None,city='東京',region='東京',caveat=None,access_url=None):
     r=rows.get(source)
@@ -57,6 +58,7 @@ for s in spots:
     if s['id']=='shinjuku': s['historical_observation']={'date':'2025-11-28','status':'見頃','url':rows['TKG-015']['evidence_url'],'basis':'老師來源表記錄；歷史實測樣本，不套用2026'}
     if s['id']=='kotokuji': s['historical_observation']={'date':'2025-11-06','status':'轉黃中','url':rows['TKG-019']['evidence_url'],'basis':'老師表保留的照片日期；不是發文日期'}
     if s['id']=='koishikawa': s['historical_observation']={'date':'2025-11-19','status':'黃葉中（未確認見頃）','url':rows['TKG-018']['evidence_url'],'basis':'老師來源表記錄；黃葉不等於見頃'}
+    s['photo']=photos[s['id']]
     s['climate_station']=s['city']
     if not s['historical_period']: s['historical_period']=[cities[s['city']]['normal_yellow'],cities[s['city']]['normal_fallen']]
     if not s['period_source']: s['period_source']='https://www.data.jma.go.jp/sakura/data/phn_012.html'

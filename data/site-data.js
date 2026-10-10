@@ -1797,6 +1797,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "可列為銀杏專項季節觀測候選。",
       "species_source": "https://www.tokyo-park.or.jp/park/ueno/",
+      "photo": {
+        "src": "assets/spot-photos/ueno.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ueno_20241210_133445.jpg",
+        "author": "Ka23 13",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "caption": "上野公園的銀杏落葉地景",
+        "file_title": "File:Ueno 20241210 133445.jpg",
+        "photo_date": "2024-12-10 13:34:45",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -1833,6 +1845,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "保留園區原文所指子地點。",
       "species_source": "https://www.tokyo-park.or.jp/park/kiba/",
+      "photo": {
+        "src": "assets/spot-photos/kiba.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kiba_Park_bridge.jpg",
+        "author": "NMaia",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "木場公園實景參考",
+        "file_title": "File:Kiba Park bridge.jpg",
+        "photo_date": "Taken on 21 April 2019, 11:43",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -1869,6 +1893,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "園區跨行政區；不以服務中心地址代表全部觀測點。",
       "species_source": "https://www.tokyo-park.or.jp/park/koganei/",
+      "photo": {
+        "src": "assets/spot-photos/koganei.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Koganei-Park.jpg",
+        "author": "Itasan",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "caption": "小金井公園草地與園景",
+        "file_title": "File:Koganei-Park.jpg",
+        "photo_date": "2007-04-08",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -1905,6 +1941,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "銀杏與もみじ谷分開。正確網址使用siba，不是shiba。",
       "species_source": "https://www.tokyo-park.or.jp/park/siba/",
+      "photo": {
+        "src": "assets/spot-photos/shiba.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_seen_from_Shiba_Park.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "芝公園望向東京鐵塔的景觀",
+        "file_title": "File:Tokyo Tower seen from Shiba Park.jpg",
+        "photo_date": "9 January 2018, 07:46:26 +08:00",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -1941,6 +1989,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "必須按物種取值，不把櫸樹葉況套用銀杏。",
       "species_source": "https://www.tokyo-park.or.jp/park/johoku-chuo/",
+      "photo": {
+        "src": "assets/spot-photos/johoku.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Johoku-Chuo-Park-2010.jpg",
+        "author": "Koujigenba",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "城北中央公園園景（櫻花季參考照片）",
+        "file_title": "File:Johoku-Chuo-Park-2010.jpg",
+        "photo_date": "2010-04-07",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -1977,6 +2037,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "2025表與和田堀公園合併一列，不能假設各有獨立觀測。",
       "species_source": "https://www.tokyo-park.or.jp/park/zempukujigawa-ryokuchi/index.html",
+      "photo": {
+        "src": "assets/spot-photos/zenpukuji.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Zenpukujigawa_Ryokuchi_02.jpg",
+        "author": "kanegen from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "善福寺川綠地河岸（櫻花季參考照片）",
+        "file_title": "File:Zenpukujigawa Ryokuchi 02.jpg",
+        "photo_date": "2008-03-28 14:18",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2013,6 +2085,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "2025表與善福寺川緑地合併一列，保留共同來源關係。",
       "species_source": "https://www.tokyo-park.or.jp/park/wadabori/",
+      "photo": {
+        "src": "assets/spot-photos/wadabori.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wadabori_park_and_around.jpg",
+        "author": "Syced",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "和田堀公園實景參考",
+        "file_title": "File:Wadabori park and around.jpg",
+        "photo_date": "14 October 2024, 17:24",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2049,6 +2133,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "須擷取銀杏段落／欄位，不直接使用全園紅葉狀態。",
       "species_source": "https://www.tokyo-park.or.jp/park/toyama/",
+      "photo": {
+        "src": "assets/spot-photos/toyama.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Toyama_Park_@_Shinjuku_(9379219204).jpg",
+        "author": "Guilhem Vellut from Annecy, France",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "戶山公園園景",
+        "file_title": "File:Toyama Park @ Shinjuku (9379219204).jpg",
+        "photo_date": "2013-07-27 14:04",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2085,6 +2181,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "銀杏並木與ふれあいの径宜設為不同子地點。",
       "species_source": "https://www.tokyo-park.or.jp/park/hikarigaoka/",
+      "photo": {
+        "src": "assets/spot-photos/hikarigaoka.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%85%89%E3%81%8C%E4%B8%98%E5%85%AC%E5%9C%92_Tokyo_Japan_Sigma_35mm_Canon_6d_(184127875).jpeg",
+        "author": "Toomore Chiang",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "caption": "光丘公園的銀杏落葉近景",
+        "file_title": "File:光が丘公園 Tokyo Japan Sigma 35mm Canon 6d (184127875).jpeg",
+        "photo_date": "20 November 2016, 17:26:46 (UTC)",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2121,6 +2229,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "葉況與施工、通行公告分開管理。",
       "species_source": "https://www.tokyo-park.or.jp/park/hibiya/",
+      "photo": {
+        "src": "assets/spot-photos/hibiya.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_Hibiya_Park_2.jpg",
+        "author": "Kakidai",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "日比谷公園實景參考",
+        "file_title": "File:Ginkgo biloba - Hibiya Park 2.jpg",
+        "photo_date": "2016-11-22",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2157,6 +2277,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "黃葉公告須限定原文明示區域，不擴張為全園。",
       "species_source": "https://www.tokyo-park.or.jp/park/yoyogi/",
+      "photo": {
+        "src": "assets/spot-photos/yoyogi.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yoyogi_Park_and_Shinjuku,_seen_from_Shibuya_Stream.jpg",
+        "author": "Syced",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "代代木公園與周邊城市的鳥瞰景觀",
+        "file_title": "File:Yoyogi Park and Shinjuku, seen from Shibuya Stream.jpg",
+        "photo_date": "20 October 2024, 15:22",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2193,6 +2325,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "活動或集章日期不是見頃日；注意官網改版後網址。",
       "species_source": "https://www.tokyo-park.or.jp/park/kyu-iwasaki-tei/",
+      "photo": {
+        "src": "assets/spot-photos/iwasaki.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Former_Iwasaki_Family_House_and_Garden_2010.jpg",
+        "author": "Wiiii",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "舊岩崎邸庭園的洋館景觀",
+        "file_title": "File:Former Iwasaki Family House and Garden 2010.jpg",
+        "photo_date": "2010",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2229,6 +2373,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "與銀杏並木分開定位；沒有獨立子地點實測。",
       "species_source": "https://www.tokyo-park.or.jp/park/hikarigaoka/",
+      "photo": {
+        "src": "assets/spot-photos/hikarigaoka.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%85%89%E3%81%8C%E4%B8%98%E5%85%AC%E5%9C%92_Tokyo_Japan_Sigma_35mm_Canon_6d_(184127875).jpeg",
+        "author": "Toomore Chiang",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "caption": "光丘公園銀杏落葉近景（園區參考，非交流小徑定位照）",
+        "file_title": "File:光が丘公園 Tokyo Japan Sigma 35mm Canon 6d (184127875).jpeg",
+        "photo_date": "20 November 2016, 17:26:46 (UTC)",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2269,6 +2425,18 @@ window.GINKGO_DATA = {
         "11-30"
       ],
       "species_source": "https://www.showakinen-koen.jp/hanadayori/",
+      "photo": {
+        "src": "assets/spot-photos/showa-canal.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92_%E3%82%AB%E3%83%8A%E3%83%BC%E3%83%AB_-_panoramio.jpg",
+        "author": "Hotate Chan",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "昭和記念公園的運河景觀",
+        "file_title": "File:昭和記念公園 カナール - panoramio.jpg",
+        "photo_date": "Taken on 9 September 2012",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2309,6 +2477,18 @@ window.GINKGO_DATA = {
         "11-30"
       ],
       "species_source": "https://www.showakinen-koen.jp/hanadayori/",
+      "photo": {
+        "src": "assets/spot-photos/showa-katarai.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Showa_Kinen_Koen_golden_gingko.jpg",
+        "author": "Japanexperterna.se",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "昭和記念公園銀杏秋色（園區參考，非語らい並木定位照）",
+        "file_title": "File:Showa Kinen Koen golden gingko.jpg",
+        "photo_date": "2014-11-23",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2351,6 +2531,18 @@ window.GINKGO_DATA = {
         "url": "https://fng.or.jp/shinjuku/2025/11/28/20251128_03/",
         "basis": "老師來源表記錄；歷史實測樣本，不套用2026"
       },
+      "photo": {
+        "src": "assets/spot-photos/shinjuku.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_in_Shinjuku_Park_-_panoramio.jpg",
+        "author": "Tomi Mäkitalo",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "新宿御苑園景（懸鈴木並木，非銀杏特寫）",
+        "file_title": "File:Autumn in Shinjuku Park - panoramio.jpg",
+        "photo_date": "Taken on 10 November 2012",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2391,6 +2583,18 @@ window.GINKGO_DATA = {
         "11-30"
       ],
       "species_source": "https://www.ichou-festa.org/ichounews/",
+      "photo": {
+        "src": "assets/spot-photos/hachioji-library.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Route_20_Namikicho.jpg",
+        "author": "103momo (talk · contribs)",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "八王子甲州街道・並木町銀杏（沿道參考，非圖書館定位照）",
+        "file_title": "File:Route 20 Namikicho.jpg",
+        "photo_date": "Taken on 21 November 2009",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2431,6 +2635,18 @@ window.GINKGO_DATA = {
         "11-30"
       ],
       "species_source": "https://www.ichou-festa.org/ichounews/",
+      "photo": {
+        "src": "assets/spot-photos/hachioji-library.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Route_20_Namikicho.jpg",
+        "author": "103momo (talk · contribs)",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "八王子甲州街道・並木町銀杏（沿道參考，非多摩御陵入口照）",
+        "file_title": "File:Route 20 Namikicho.jpg",
+        "photo_date": "Taken on 21 November 2009",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2467,6 +2683,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "東御苑不是皇居外苑或北之丸公園。全園葉落描述不可自動套用銀杏。",
       "species_source": "https://www.kunaicho.go.jp/visit/higashigyoen/hanadayori/index.html",
+      "photo": {
+        "src": "assets/spot-photos/east-garden.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hyakunin-Bansho_-_panoramio.jpg",
+        "author": "FoxyStranger Kawasaki",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "皇居東御苑百人番所景觀",
+        "file_title": "File:Hyakunin-Bansho - panoramio.jpg",
+        "photo_date": "Taken on 8 June 2013",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2508,6 +2736,18 @@ window.GINKGO_DATA = {
         "status": "黃葉中（未確認見頃）",
         "url": "https://koishikawa-bg.jp/kaika/5013/",
         "basis": "老師來源表記錄；黃葉不等於見頃"
+      },
+      "photo": {
+        "src": "assets/spot-photos/koishikawa.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Koishikawa_Botanical_Gardens_20211106.jpg",
+        "author": "Suicasmo",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "小石川植物園實景參考",
+        "file_title": "File:Koishikawa Botanical Gardens 20211106.jpg",
+        "photo_date": "2021-11-06 10:37:29",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
       },
       "climate_station": "東京"
     },
@@ -2551,6 +2791,17 @@ window.GINKGO_DATA = {
         "url": "https://www.akirunokanko.com/?p=8712",
         "basis": "老師表保留的照片日期；不是發文日期"
       },
+      "photo": {
+        "src": "https://www.akirunokanko.com/wp-content/uploads/2025/11/ada78394cc338f05bf024730b72bfafb-640x480.jpg",
+        "source_url": "https://www.akirunokanko.com/?p=8760",
+        "author": "あきる野市観光協会",
+        "license": null,
+        "license_url": null,
+        "caption": "廣德寺的銀杏與落葉地景（官方2025年紅葉紀錄）",
+        "photo_date": "2025年11月27日文章，非獨立拍攝日期",
+        "checked_at": "2026-10-10",
+        "display_note": "直接引用官方圖片網址；未複製至網站，權利屬原提供單位。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2587,6 +2838,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "不是明治神宮內苑。頁內老樹齡／株數含歷史基準，勿當2026現況。",
       "species_source": "https://www.meijijingugaien.jp/walk/sight/season.html",
+      "photo": {
+        "src": "assets/spot-photos/gaien.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Gaien_Ginkgo_Festival_(53440769967).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "明治神宮外苑・銀杏並木實景參考",
+        "file_title": "File:Meiji Jingu Gaien Ginkgo Festival (53440769967).jpg",
+        "photo_date": "2023-11-23 14:46",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2623,6 +2886,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "不得沿用已於2024年3月結束管理的箱根植木舊頁作現任營運來源。",
       "species_source": "https://ogikubo3gardens.jp/ootaguro/",
+      "photo": {
+        "src": "assets/spot-photos/ootaguro.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2019_Otaguro_garden_in_autumn_4.jpg",
+        "author": "Kakidai",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "大田黑公園日式庭園秋色（含其他樹種）",
+        "file_title": "File:2019 Otaguro garden in autumn 4.jpg",
+        "photo_date": "2019-12",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2659,6 +2934,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "不要把附近馬場大門的櫸樹並木視為銀杏。",
       "species_source": "https://www.ookunitamajinja.or.jp/mame/",
+      "photo": {
+        "src": "assets/spot-photos/ookunitama.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%C5%8Ckunitama_Shrine.jpg",
+        "author": "Fuchu",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "大國魂神社社殿景觀",
+        "file_title": "File:Ōkunitama Shrine.jpg",
+        "photo_date": "2017-02-10",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2695,6 +2982,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得有拍攝日期的2026銀杏觀測；官方照片頁不是即時鏡頭。",
       "species_source": "https://www.yasukuni.or.jp/",
+      "photo": {
+        "src": "assets/spot-photos/yasukuni.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E3%81%AE%E3%82%A4%E3%83%81%E3%83%A7%E3%82%A6%E4%B8%A6%E6%9C%A8.jpg",
+        "author": "くろふね",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "靖國神社實景參考",
+        "file_title": "File:靖国神社のイチョウ並木.jpg",
+        "photo_date": "2015-12-05 11:02:56",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2731,6 +3030,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "赤門耐震工程預計至2027年9月；改由開放入口，考試及校方限制日不可入校。",
       "species_source": "https://www.u-tokyo.ac.jp/ja/about/campus-guide/1km_of_campus.html",
+      "photo": {
+        "src": "assets/spot-photos/utokyo-hongo.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo_leaves_on_Hongo_Campus,_University_of_Tokyo.jpg",
+        "author": "Tokyo538",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "東京大學・本鄉校區實景參考",
+        "file_title": "File:Ginkgo leaves on Hongo Campus, University of Tokyo.jpg",
+        "photo_date": "2023-12-12 12:14:04",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2767,6 +3078,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "本鄉、駒場、小石川植物園是不同地點。此頁未證實各校區的當季銀杏觀測。",
       "species_source": "https://www.u-tokyo.ac.jp/content/400123561.pdf",
+      "photo": {
+        "src": "assets/spot-photos/utokyo-komaba.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Komaba_Campus,_University_of_Tokyo.jpg",
+        "author": "Tokyo538",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "caption": "東京大學・駒場Ⅰ校區實景參考",
+        "file_title": "File:Komaba Campus, University of Tokyo.jpg",
+        "photo_date": "2021-06-23 19:05:10",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2803,6 +3126,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "區域旅遊更新不等於大學通り銀杏現況；可與Jorudan地點目錄交叉尋源。",
       "species_source": "https://kunimachi.jp/spot/daigakustreet/",
+      "photo": {
+        "src": "assets/spot-photos/kunitachi.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E7%AB%8B%E5%B8%82%E5%A4%A7%E5%AD%A6%E9%80%9A001.jpg",
+        "author": "っ",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "國立・大學通實景參考",
+        "file_title": "File:国立市大学通001.jpg",
+        "photo_date": "",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "東京"
     },
     {
@@ -2835,6 +3170,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得2026景點實測；出發前查官方公告。",
       "species_source": "https://www.visit-hokkaido.jp/en/spot/detail_10022.html",
+      "photo": {
+        "src": "assets/spot-photos/hokudai.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ginkgo_tree-lined_avenue_in_Hokkaido_University_05.jpg",
+        "author": "ノボホショコロトソ",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "caption": "北海道大學・銀杏並木實景參考",
+        "file_title": "File:Ginkgo tree-lined avenue in Hokkaido University 05.jpg",
+        "photo_date": "2022-10-31 14:49:44",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "札幌"
     },
     {
@@ -2867,6 +3214,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得2026景點實測；出發前查官方公告。",
       "species_source": "https://www.aichinow.pref.aichi.jp/spots/detail/3587/",
+      "photo": {
+        "src": "assets/spot-photos/sobue.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_ginkgo_biloba_in_front_of_Yamazaki_Station.jpg",
+        "author": "KKPCW",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "山崎站前銀杏（銀杏公園周邊參考）",
+        "file_title": "File:Autumn ginkgo biloba in front of Yamazaki Station.jpg",
+        "photo_date": "2018-12-02 16:06:26",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "名古屋"
     },
     {
@@ -2899,6 +3258,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得2026景點實測；出發前查官方公告。",
       "species_source": "https://ja.kyoto.travel/tourism/single01.php?category_id=7&tourism_id=215",
+      "photo": {
+        "src": "assets/spot-photos/nishi-honganji.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hongan-ji_National_Treasure_World_heritage_Kyoto_%E5%9B%BD%E5%AE%9D%E3%83%BB%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3_%E6%9C%AC%E9%A1%98%E5%AF%BA_%E4%BA%AC%E9%83%BD116.JPG",
+        "author": "Nekosuki",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "西本願寺大銀杏與寺院景觀",
+        "file_title": "File:Hongan-ji National Treasure World heritage Kyoto 国宝・世界遺産 本願寺 京都116.JPG",
+        "photo_date": "2010-11-11 08:06:41",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "京都"
     },
     {
@@ -2931,6 +3302,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得2026景點實測；出發前查官方公告。",
       "species_source": "https://www.city.osaka.lg.jp/kensetsu/page/0000242811.html",
+      "photo": {
+        "src": "assets/spot-photos/midosuji.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Midosuji-autumn01.jpg",
+        "author": "Inoue-hiro",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "caption": "御堂筋・銀杏並木實景參考",
+        "file_title": "File:Midosuji-autumn01.jpg",
+        "photo_date": "2006-12-03",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "大阪"
     },
     {
@@ -2963,6 +3346,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "未取得2026景點實測；出發前查官方公告。",
       "species_source": "https://castle.kumamoto-guide.jp/history/",
+      "photo": {
+        "src": "assets/spot-photos/kumamoto.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kumamoto_castle_and_ginkgo.jpg",
+        "author": "Totti",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "熊本城・大銀杏實景參考",
+        "file_title": "File:Kumamoto castle and ginkgo.jpg",
+        "photo_date": "2020-11-28 09:26:01",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "熊本"
     },
     {
@@ -2995,6 +3390,18 @@ window.GINKGO_DATA = {
       "last_checked": "2026-10-08",
       "caveat": "私人土地開放賞景；請尊重園主及當季交通公告。城市氣候使用鹿兒島站，非山坡微氣候。",
       "species_source": "https://www.kagoshima-kankou.com/guide/13192",
+      "photo": {
+        "src": "assets/spot-photos/tarumizu.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tarumizu_Thousand_Ginkgos_A_2011_02.JPG",
+        "author": "ja:User:Sanjo",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "垂水千本銀杏樹林景觀",
+        "file_title": "File:Tarumizu Thousand Ginkgos A 2011 02.JPG",
+        "photo_date": "2011-12-05",
+        "checked_at": "2026-10-10",
+        "display_note": "縮圖、壓縮及卡片比例裁切顯示；點原始照片可看完整構圖。"
+      },
       "climate_station": "鹿兒島"
     }
   ],
