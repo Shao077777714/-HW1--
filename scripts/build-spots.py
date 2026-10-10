@@ -1,5 +1,5 @@
 from pathlib import Path
-import json
+import json, hashlib, re
 ROOT=Path(__file__).resolve().parents[1]
 teacher=json.loads((ROOT/'data/teacher-sources.json').read_text(encoding='utf-8'))
 cities=json.loads((ROOT/'data/cities.json').read_text(encoding='utf-8'))
@@ -72,3 +72,15 @@ data={'as_of':'2026-10-08','teacher':teacher,'source_mapping':mapping,'cities':c
 (ROOT/'data/source-mapping.json').write_text(json.dumps(mapping,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'data/site-data.js').write_text('window.GINKGO_DATA = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
 print(f'{len(spots)} destination/subpoints; {len(mapping)} source mappings; data.js supports file:// without fetch.')
+
+# Keep the data, popup code and styles on their current versions after a refresh.
+index_path=ROOT/'index.html'
+index_source=index_path.read_bytes()
+for asset in ['styles.css','data/site-data.js','app.js','tour.js']:
+    content=(ROOT/asset).read_bytes().replace(b'\r\n',b'\n')
+    version=hashlib.sha256(content).hexdigest()[:12].encode('ascii')
+    path=asset.encode('ascii')
+    pattern=rb'((?:src|href)=")'+re.escape(path)+rb'(?:\?v=[^" ]*)?"'
+    index_source,count=re.subn(pattern,lambda match:match.group(1)+path+b'?v='+version+b'"',index_source)
+    if count!=1: raise ValueError('Expected exactly one asset reference: '+asset)
+if index_source!=index_path.read_bytes(): index_path.write_bytes(index_source)
